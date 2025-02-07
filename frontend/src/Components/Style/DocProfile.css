@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #003366;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.profile-data {
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-data p {
+  margin: 10px 0;
+}
+
+.profile-data strong {
+  color: #003366;
+}

@@ -1,0 +1,19 @@
+.patient-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .profile-section,
+  .medical-history-section {
+    width: 100%;
+  }
+}

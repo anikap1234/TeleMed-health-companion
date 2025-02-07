@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Container styles */
+.container {
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #113770, #335d92);
+  color: #fdfdfd;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* File upload styles */
+.file-upload {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.upload-label {
+  font-size: 20px;
+  color: #fdfdfd;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  display: none; /* Hidden input field */
+}
+
+.file-upload-icon {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4472c4;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.file-upload-icon:hover {
+  background: #355a99;
+}
+
+/* Document view access styles */
+.document-view-access {
+  background: #f7f9fc;
+  color: #113770;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #dbe2f1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.document-view-access h2 {
+  margin-bottom: 20px;
+  color: #113770;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Form group styles */
+.form-group {
+  text-align: center; /* Center-align content */
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #113770;
+}
+
+/* Input field styles */
+.form-input {
+  width: 100%; /* Full width */
+  max-width: 400px; /* Limit max width for better visuals */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #c5d1e3;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #113770;
+  transition: all 0.3s ease;
+  margin: 0 auto; /* Center-align */
+  display: block; /* Ensure proper alignment */
+}
+
+.form-input:focus {
+  border-color: #4472c4;
+  box-shadow: 0 0 5px rgba(68, 114, 196, 0.3);
+  outline: none;
+}
+
+/* Button hover and focus effects */
+.file-upload-icon:hover,
+.form-input:focus {
+  border-color: #4472c4;
+  background: #eef3fc;
+  color: #113770;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .file-upload-icon {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .form-input {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}

@@ -1,0 +1,62 @@
+.registerpage {  
+    background-image: url('https://via.placeholder.com/1600x900'); 
+    background-size: cover;  /* Cover the entire viewport */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    background-position: center;  /* Center the image */
+    margin: 0;  
+}  
+
+.register-container {  
+    background-color: #ebebebaa;  /* Semi-transparent background for the container */
+    padding: 20px;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);  
+    width: 500px;  
+}  
+
+.password-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .toggle-password {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+
+h1 {  
+    text-align: center;  
+}  
+
+label {  
+    margin-top: 10px;  
+    display: block;  
+}  
+
+input {  
+    width: 100%;  
+    padding: 10px;  
+    margin-top: 5px;  
+    border: 1px solid #ccc;  
+    border-radius: 7px; /* Curved input boxes */  
+    box-sizing: border-box;  
+}  
+
+button {  
+    width: 100%;  
+    padding: 10px;  
+    margin-top: 15px;  
+    background-color: #04d152; /* Button color */  
+    color: white;  
+    border: none;  
+    border-radius: 10px; /* Curved button */  
+    cursor: pointer;  
+}  
+
+button:hover {  
+    background-color: #03a30b; /* Darker button on hover */  
+}
